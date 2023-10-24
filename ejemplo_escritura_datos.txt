@@ -1,0 +1,4 @@
+tipo longitud
+A 120.34
+B 99.45
+C 115.67

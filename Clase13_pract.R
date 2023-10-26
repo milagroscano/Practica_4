@@ -109,14 +109,5 @@ anio_media_min <- valores_anios[posicion_min_media]
 ########################################
 # Guardar el dataframe en un archivo .csv y un archivo .xlsx
 
-
-
-
-
-
-
-
-
-
-
+## token      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
 

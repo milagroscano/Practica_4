@@ -43,7 +43,7 @@ Time <- ncvar_get(nc,varid="time")
 # esta en un formato que no se puede trabajar
 
 # UNA forma de poder leer la información de la fecha, tengo que saber cuando comienza, el delta t y la cantidad de información
-time1 <- seq(as.Date("0001-01-01"), by= "day", length.out= 90) # ESTA MAL, COMO CAMBIAR ¿¿¿¿??????
+time1 <- seq(as.Date("0001-01-01"), by= "day", length.out= 90) # ESTA MAL, COMO CAMBIAR ¿¿¿¿?????? usar format
 head(time1)
 # no es la mas recomendable para trabajar
 

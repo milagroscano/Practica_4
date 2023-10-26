@@ -12,7 +12,7 @@ rm(list = ls())
 archivo = "/LIANA/Escritorio/LicAtmosfera/Laboratorio de Procesamiento de Información Meteorológica/2C 2023/Clases Pract/Practica_4/archivos_practica4/usados/sondeo.txt"
 datos = read.table(archivo, nrows= 801, skip = 7)
 
-# COMO SE ABREN LOS ARCHIVOS .TXT ?????
+# COMO SE ABREN LOS ARCHIVOS .TXT ????? RESPUESTA : con read.table va bien , solo debo especificar como esta separado el archivo en el editor de texto y eso 
 
 # b) Calcular la altura geopotencial de todos los niveles de presi´on informados en el archivo. 
 # 

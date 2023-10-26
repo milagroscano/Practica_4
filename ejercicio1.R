@@ -11,7 +11,7 @@ datos <- read.table(archivo)
 # a) Verificar que la apertura del archivo fue exitosa (impedir que el c´odigo se interrumpa si el archivo no se encuentra, 
 #    en este caso el script debe informar que el archivo no fue encontrado). 
 
-#  NO ENTIENDO LA CONSIGNA ¿¿¿¿?????????
+#  NO ENTIENDO LA CONSIGNA ¿¿¿¿????????? list.files(path)
 
 # b) Asignar los valores de la columna 2 a la variable ‘Td’ y el contenido de la columna 3 a la variable ‘Temperatura’. 
 

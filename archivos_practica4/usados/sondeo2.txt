@@ -1,0 +1,47 @@
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+ 1012.0     20   25.8   19.8     69  14.58     60      9  297.9  340.4  300.5
+ 1000.0    124   23.6   17.6     69  12.82     75     10  296.8  334.0  299.0
+  925.0    799   18.2   11.2     64   9.11     80     11  297.9  324.7  299.6
+  850.0   1525   18.4   -6.6     18   2.76    105     17  305.4  314.3  305.9
+  700.0   3153    5.4    1.0     73   5.91    120     13  308.4  326.9  309.5
+  500.0   5820   -9.5  -39.5      7   0.25     20     12  321.4  322.4  321.4
+  400.0   7500  -21.9  -35.9     27   0.45    295      9  326.4  328.2  326.5
+  300.0   9560  -37.3  -44.3     48   0.25    295      4  332.7  333.7  332.7
+  250.0  10780  -48.5  -52.0     67   0.13    235      6  333.8  334.4  333.9
+  200.0  12240  -51.7  -80.7      2   0.00    260     31  350.7  350.8  350.7
+  150.0  14080  -58.1  -89.1      1   0.00    275     53  369.8  369.8  369.8
+  141.0  14457  -59.7  -90.2      1   0.00    275     62  373.6  373.6  373.6
+  100.0  16550  -68.3  -96.3      1   0.00    260     36  395.5  395.5  395.5
+Station information and sounding indices
+
+                         Station identifier: SAEZ
+                             Station number: 87576
+                           Observation time: 101229/1200
+                           Station latitude: -34.81
+                          Station longitude: -58.53
+                          Station elevation: 20.0
+                            Showalter index: 10.26
+                               Lifted index: 0.81
+    LIFT computed using virtual temperature: 0.29
+                                SWEAT index: 46.00
+                                    K index: 16.90
+                         Cross totals index: 2.90
+                      Vertical totals index: 27.90
+                        Totals totals index: 30.80
+      Convective Available Potential Energy: 0.00
+             CAPE using virtual temperature: 18.88
+                      Convective Inhibition: 0.00
+             CINS using virtual temperature: -185.52
+ Equilibrum Level using virtual temperature: 397.64
+             LFCT using virtual temperature: 408.40
+                     Bulk Richardson Number: 0.00
+          Bulk Richardson Number using CAPV: 16.85
+  Temp [K] of the Lifted Condensation Level: 288.06
+Pres [hPa] of the Lifted Condensation Level: 897.17
+     Mean mixed layer potential temperature: 297.15
+              Mean mixed layer mixing ratio: 12.10
+              1000 hPa to 500 hPa thickness: 5696.00
+Precipitable water [mm] for entire sounding: 28.3

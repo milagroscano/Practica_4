@@ -1,0 +1,54 @@
+netcdf hgt250_REFORECAST {
+dimensions:
+	time = UNLIMITED ; // (90 currently)
+	lat = 38 ;
+	lon = 144 ;
+	members = 15 ;
+	hrs = 1 ;
+variables:
+	double time(time) ;
+		time:units = "hours since 1-1-1 00:00:0.0" ;
+		time:delta_t = "0000-00-00 12:00:00" ;
+		time:actual_range = 17548464., 17550600. ;
+		time:title = "Time" ;
+		time:forecast_hour_range = 12, 12 ;
+	float lat(lat) ;
+		lat:units = "degrees_north" ;
+		lat:long_name = "Latitude" ;
+		lat:actual_range = 90.f, -90.f ;
+	float lon(lon) ;
+		lon:units = "degrees_east" ;
+		lon:long_name = "Longitude" ;
+		lon:actual_range = 0.f, 357.5f ;
+	short ensemble_member(members) ;
+		ensemble_member:long_name = "ensemble member (0 is control, +1 is p1, -1 is n1, etc)" ;
+	int hrs(hrs) ;
+		hrs:forecast_hour_range = 12, 12 ;
+	short hgt(time, members, hrs, lat, lon) ;
+		hgt:_FillValue = -32767s ;
+		hgt:scale_factor = 1.f ;
+		hgt:var_desc = "Geopotential height\n",
+			"-" ;
+		hgt:level_desc = "Other\n",
+			"-" ;
+		hgt:actual_range = 9211., 11115. ;
+		hgt:add_offset = 32066.f ;
+		hgt:parent_stat = "Mean\n",
+			"M" ;
+		hgt:dataset = "MRF Reforecasting experiment" ;
+		hgt:long_name = "Geopotential height" ;
+		hgt:valid_range = -9.96921e+36f, 9.96921e+36f ;
+		hgt:precision = -999.f ;
+		hgt:statistic = "Mean\n",
+			"M" ;
+		hgt:units = "gpm" ;
+		hgt:missing_value = 32766s ;
+		hgt:data_download_type = "all ensemble members" ;
+		hgt:data_download_level = "250mb" ;
+
+// global attributes:
+		:platform = "none" ;
+		:history = "created 2006-8-22" ;
+		:Conventions = "COARDS" ;
+		:title = "MRF Reforecasting Experiment" ;
+}
